@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  background-color: white;
+}
+
+.footer-block {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px 15px 25px;
+}
+
+.footer-icons {
+  flex-direction: column;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.footer-icons__img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 0px 6px 0px;
+}
