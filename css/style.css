@@ -3,12 +3,6 @@
 @import "main.css";
 @import "header.css";
 
-@media screen and (max-width: 400px) {
-  .media-info-msg {
-    opacity: 1;
-  }
-}
-
 .media-info-msg {
   position: fixed;
   top: 0;
@@ -20,7 +14,12 @@
   align-items: center;
   background-color: red;
   color: black;
-  opacity: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .media-info-msg {
+    display: none;
+  }
 }
 
 body {
