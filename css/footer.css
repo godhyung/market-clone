@@ -22,8 +22,24 @@ footer {
   cursor: pointer;
 }
 
+@keyframes icons-dd {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-6px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
 .footer-icons__img {
   width: 25px;
   height: 25px;
   margin: 0px 0px 6px 0px;
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 1.5s icons-dd;
 }
