@@ -3,6 +3,11 @@
 @import "main.css";
 @import "header.css";
 
+:root {
+  --button-primary: #d98226;
+  --button-hover: rgba(217, 122, 38, 0.4);
+}
+
 .media-info-msg {
   position: fixed;
   top: 0;
